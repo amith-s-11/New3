@@ -1,0 +1,119 @@
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0e0101;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff6f61, #ffbc00); 
+}
+
+/* Container styles */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #ff6f61; 
+}
+
+/* Title styles */
+h1 {
+    color: #ff8661;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form label and input field styles */
+label {
+    font-size: 16px;
+    color: #333333;
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input[type="number"], input[type="checkbox"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Checkbox-specific styles */
+input[type="checkbox"] {
+    width: auto;
+    color:#2f00ff;
+    margin-left:10px;
+}
+
+/* Button styles */
+button {
+    background-color: #ffa061; 
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff5a47; 
+}
+
+/*  Displaying the generated password */
+h3 {
+    margin-top: 20px;
+    color: #ff8161;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styling for the checkboxes and labels */
+div {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Hover effect for the input fields */
+input[type="number"]:focus, input[type="checkbox"]:focus {
+    border: 1px solid #7361ff;
+    box-shadow: 0 0 5px rgba(105, 97, 255, 0.6);
+    outline: none;
+}
+
+/* Box displaying the generated password */
+.password-box {
+    background-color: #fffcf7;
+    padding: 20px;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    word-wrap: break-word;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.password-box p {
+    margin: 0;
+    color: #ff6f61; 
+}
